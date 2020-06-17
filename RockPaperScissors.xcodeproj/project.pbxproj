@@ -13,6 +13,8 @@
 		94F410EF249921A1005BED78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F410ED249921A1005BED78 /* Main.storyboard */; };
 		94F410F1249921A2005BED78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F410F0249921A2005BED78 /* Assets.xcassets */; };
 		94F410F4249921A2005BED78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F410F2249921A2005BED78 /* LaunchScreen.storyboard */; };
+		94F410FC249921B8005BED78 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F410FB249921B8005BED78 /* Sign.swift */; };
+		94F410FE2499239C005BED78 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F410FD2499239C005BED78 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		94F410F0249921A2005BED78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94F410F3249921A2005BED78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94F410F5249921A2005BED78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F410FB249921B8005BED78 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		94F410FD2499239C005BED78 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				94F410F0249921A2005BED78 /* Assets.xcassets */,
 				94F410F2249921A2005BED78 /* LaunchScreen.storyboard */,
 				94F410F5249921A2005BED78 /* Info.plist */,
+				94F410FB249921B8005BED78 /* Sign.swift */,
+				94F410FD2499239C005BED78 /* GameState.swift */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				94F410EC249921A1005BED78 /* ViewController.swift in Sources */,
 				94F410E8249921A1005BED78 /* AppDelegate.swift in Sources */,
+				94F410FE2499239C005BED78 /* GameState.swift in Sources */,
+				94F410FC249921B8005BED78 /* Sign.swift in Sources */,
 				94F410EA249921A1005BED78 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
